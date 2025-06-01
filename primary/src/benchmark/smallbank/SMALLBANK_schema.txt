@@ -1,0 +1,23 @@
+//size,type,name
+//表、属性、索引出现的顺序需要与smallbank_config中定义的enum顺序一致
+TABLE=ACCOUNT
+	8,int64_t,A_NAME
+	8,int64_t,A_CUSTOMER_ID
+
+TABLE=SAVING
+	8,int64_t,S_CUSTOMER_ID
+	8,double,S_BALANCE
+
+TABLE=CHECKING
+	8,int64_t,C_CUSTOMER_ID
+	8,double,C_BALANCE
+
+
+INDEX=A_PK_INDEX
+HASH_INDEX
+
+INDEX=S_PK_INDEX
+HASH_INDEX
+
+INDEX=C_PK_INDEX
+HASH_INDEX

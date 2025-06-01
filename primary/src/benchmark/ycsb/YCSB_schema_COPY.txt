@@ -1,0 +1,16 @@
+//size, type, name
+TABLE=MAIN_TABLE
+	8,int64_t,YCSB_KEY
+	20,string,F0
+	20,string,F1
+	20,string,F2
+	20,string,F3
+	20,string,F4
+	20,string,F5
+	20,string,F6
+	20,string,F7
+	20,string,F8
+	20,string,F9
+
+INDEX=MAIN_INDEX
+MAIN_TABLE,0
