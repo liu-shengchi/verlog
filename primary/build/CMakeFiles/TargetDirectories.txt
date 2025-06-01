@@ -1,1 +1,0 @@
-/home/liusc/research/verlog/primary/build/build/CMakeFiles/PRIMARY.dir
